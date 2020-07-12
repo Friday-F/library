@@ -17,7 +17,7 @@
 </template>
 <script>
 export default {
-    name:"dialog",
+    name:"Dialog",
     props:{
         dialogVisible:{
             type:Boolean,
