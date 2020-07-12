@@ -2,13 +2,17 @@
   "name": "library",
   "version": "0.1.0",
   "private": true,
+  "main": "lib/package.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint-build": "vue-cli-service build --target lib --name package --dest lib ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "less": "^3.11.3",
+    "less-loader": "^6.2.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
