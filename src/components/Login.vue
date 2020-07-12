@@ -24,6 +24,7 @@
 <script>
 import Dialog from './Dialog'
 export default {
+    name:"login",
     components:{
         'v-dialog':Dialog
     },

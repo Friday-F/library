@@ -4,7 +4,7 @@ const components = [
     Dialog,
     Login
 ]
-const install = Vue=>{
+const install = function(Vue){
     components.forEach(component=>{
         Vue.component(component.name,component)
     })
