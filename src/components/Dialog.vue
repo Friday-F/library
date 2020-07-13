@@ -10,7 +10,7 @@
             </div>
             <div class="dialog-footer">
                 <a href="javascript:;" class="cancel" @click="cancelBtn">取消</a>
-                <a href="javascript:;" class="submit" @click="submitBtn">确定</a>
+                <a href="javascript:;" class="submit" @click="submitBtn">登录</a>
             </div>
         </div>
     </div>
