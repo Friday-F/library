@@ -15,8 +15,10 @@
             <div class="input_item">
                 <label for="password" class="label">密码:</label>
                 <input type="text" id="password" class="inp" v-model="formLogin.password" @blur="onBlur(formLogin.password,'password')">
+                <img src="../assets/logo.png" alt="" width="20px">
                 <p class="tip" v-show="is_password">密码必填</p>
             </div>
+            
         </div>
         </v-dialog>
     </div>
